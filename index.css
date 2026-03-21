@@ -67,7 +67,7 @@ main {
     background-color: var(--branco);
 }
 
-main, .container-hero, .container, .hero img, .container-preparation-time {
+main, .container-hero, .container, .hero-image, .container-preparation-time {
     max-width: 45rem;
 }
 
@@ -162,11 +162,6 @@ table {
     margin: 1.25rem 0
 }
 
-
-td {
-    padding: 0.75rem;
-    border-bottom: 1px solid var(--pedra-150);
-}
 
 .attribution { 
     font-size: 0.6875rem; text-align: center;
