@@ -18,10 +18,10 @@
 
     /* fontes */
 
-    --fs-xxl: 36px;
-    --fs-xl: 28px;
-    --fs-lg:20px;
-    --fs-md: 16px;
+    --fs-xxl: 2.25rem;
+    --fs-xl: 1.75rem;
+    --fs-lg:1.25rem;
+    --fs-md: 1rem;
 }
 
 /* classes para variáves das fontes */
@@ -32,21 +32,21 @@
     line-height: 1;
     color: var(--pedra-900);
     font-family: 'Young Serif', serif;
-    padding-block-start: 20px;
+    padding-block-start: 1.25rem;
 }
 
 .g-text {
     font-size: var(--fs-xl);
     color: var(--marron);
     font-weight: 500;
-    padding-block-end: 15px;
+    padding-block-end: 0.9375rem;
     font-family: 'Young Serif', serif;
 }
 
 .m-text {
     font-size: var(--fs-lg);
     color: var(--rosa-escuro);
-    padding-block-end: 15px;
+    padding-block-end: 0.9375rem;
 }
 
 .p-text {
@@ -64,56 +64,56 @@ body{
 }
 
 main {
-    max-width: 720px;
+    max-width: 45rem;
     background-color: var(--branco);
 }
 
 .container-hero {
-    max-width: 720px;
+    max-width: 45rem;
 }
 
 .container{
-    max-width: 720px;
-    padding: 15px 32px;
+    max-width: 45rem;
+    padding: 0.9375rem 2rem;
 }
 
 .hero img {
-    max-width: 720px;
+    max-width: 45rem;
     width: 100%;
     height: auto;
 }
 
 .hero-text p {
-    padding-block-start: 25px;
-    padding-block-end: 20px;
+    padding-block-start: 1.5625rem;
+    padding-block-end: 1.25rem;
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .container-preparation-time {
-    max-width: 720px;
-    padding: 0 30px;
-    margin-block-end: 10px;
+    max-width: 45rem;
+    padding: 0 1.875rem;
+    margin-block-end: 0.625rem;
 }
 
 .preparation-time {
     background-color: var(--rosa-claro);
-    padding: 25px 30px 15px 30px;
-    border-radius: 10px;
+    padding: 1.25rem 1.875rem 0.9375rem 1.875rem;
+    border-radius: 0.625rem;
 }
 
 .preparation-time ul {
-    padding-left: 25px;
+    padding-inline-start: 1.5625rem;
 }
 
  .ingredients ul, ol {
-  padding-left: 25px;
-  margin-bottom: 30px;
+  padding-inline-start: 1.5625rem;
+  margin-block-end: 1.875rem;
 }
 
 li {
-  padding-left: 16px;  
-  margin-bottom: 10px;  
+  padding-inline-start: 1rem;  
+  margin-block-end: 0.625rem;  
 }
 
 tr td:nth-child(1){
@@ -135,27 +135,27 @@ li::marker, tr td:nth-child(2) {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 20px 0
+    margin: 1.25rem 0
 }
 
 
 td {
-    padding: 12px;
+    padding: 0.75rem;
     border-bottom: 1px solid var(--pedra-150);
 }
 
 
-@media (min-width: 721px) {
+@media (min-width: 45.0625rem) {
     body{
         background-color: var(--pedra-100);
-        margin: 120px auto 0 auto;
+        margin: 7.5rem auto 0 auto;
         align-items: center;
         
     }
 
     main {
-        border-radius: 20px;
-        padding: 40px;
+        border-radius: 1.25rem;
+        padding: 2.5rem;
     }
 
     .container, .container-preparation-time {
@@ -166,11 +166,11 @@ td {
     
 
     .hero-image {
-        border-radius: 20px;
+        border-radius: 1.25rem;
     }
 
     .attribution {
-        padding: 30px;
+        padding: 1.875rem;
     }
 
 
