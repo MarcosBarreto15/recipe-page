@@ -75,7 +75,7 @@ main, .container-hero, .container, .hero img, .container-preparation-time {
     padding: 0.9375rem 2rem;
 }
 
-.hero img {
+.hero-image {
     width: 100%;
     height: auto;
 }
@@ -140,8 +140,14 @@ td {
     border-bottom: 1px solid var(--pedra-150);
 }
 
-.attribution { font-size: 0.6875rem; text-align: center;}
-.attribution a { color: var(--marron); }
+.attribution { 
+    font-size: 0.6875rem; text-align: center;
+}
+.attribution a { 
+    color: var(--marron); 
+    text-decoration: none;
+    cursor: pointer;
+}
 
 
 @media (min-width: 45.0625rem) {
