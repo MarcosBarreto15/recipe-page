@@ -22,6 +22,14 @@
     --fs-xl: 1.75rem;
     --fs-lg:1.25rem;
     --fs-md: 1rem;
+
+    /* espaçamentos */
+
+    --space-sm: 0.625rem;
+    --space-md: 1.25rem;
+    --space-lg: 1.5625rem;
+    --space-xl: 1.875rem;
+    --space-xxl: 2.5rem;
 }
 
 /* classes para variáves das fontes */
@@ -32,7 +40,7 @@
     line-height: 1;
     color: var(--pedra-900);
     font-family: 'Young Serif', serif;
-    padding-block-start: 1.25rem;
+    padding-block-start: var(--space-md);
 }
 
 .g-text {
@@ -82,20 +90,20 @@ main, .container-hero, .container, .hero-image, .container-preparation-time {
 
 .hero-text p {
     padding-block-start: 1.5625rem;
-    padding-block-end: 1.25rem;
+    padding-block-end: var(--space-md);
     line-height: 1.5;
     font-size: 1rem;
 }
 
 .container-preparation-time {
     padding: 0 1.875rem;
-    margin-block-end: 0.625rem;
+    margin-block-end: var(--space-sm);
 }
 
 .preparation-time {
     background-color: var(--rosa-claro);
     padding: 1.25rem 1.875rem 0.9375rem 1.875rem;
-    border-radius: 0.625rem;
+    border-radius: var(--space-sm);
 }
 
 .preparation-time ul {
@@ -109,7 +117,7 @@ main, .container-hero, .container, .hero-image, .container-preparation-time {
 
 li {
   padding-inline-start: 1rem;  
-  margin-block-end: 0.625rem;  
+  margin-block-end: var(--space-sm);  
 }
 
 .sr-only {
@@ -159,7 +167,7 @@ li::marker, tr td:nth-child(2) {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 1.25rem 0
+    margin: var(--space-md) 0
 }
 
 
@@ -182,7 +190,7 @@ table {
     }
 
     main {
-        border-radius: 1.25rem;
+        border-radius: var(--space-md);
         padding: 2.5rem;
     }
 
@@ -194,7 +202,7 @@ table {
     
 
     .hero-image {
-        border-radius: 1.25rem;
+        border-radius: var(--space-md);
     }
 
     .attribution {
