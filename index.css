@@ -112,9 +112,37 @@ li {
   margin-block-end: 0.625rem;  
 }
 
-tr td:nth-child(1){
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+table th {
     font-size: var(--fs-md);
     color: var(--pedra-600);
+    font-weight: normal; /* Para não ficar negrito por padrão */
+    text-align: left;    /* Garante alinhamento à esquerda */
+    padding: 0.75rem;
+    border-bottom: 1px solid var(--pedra-150);
+}
+
+table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid var(--pedra-150);
+    color: var(--marron); 
+    font-weight: bold;
+}
+
+table tr:last-child th,
+table tr:last-child td {
+    border-bottom: none;
 }
 
 
