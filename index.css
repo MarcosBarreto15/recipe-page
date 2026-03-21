@@ -162,6 +162,9 @@ li::marker, tr td:nth-child(2) {
 
 .ingredients, .instructions {
     border-bottom: 1px solid var(--pedra-150);
+    margin-inline: 2rem;
+    padding-inline: 0;
+    padding-block: 1.5rem;
 }
 
 table {
