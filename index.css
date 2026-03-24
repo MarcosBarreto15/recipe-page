@@ -71,6 +71,26 @@ body{
 
 }
 
+.skip-link {
+    position: absolute;
+    top: -100px; /* Joga o link para fora da tela lá em cima */
+    left: 0;
+    background: var(--marron);
+    color: var(--branco);
+    padding: 1rem;
+    z-index: 100;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 0 0 0.5rem 0;
+    transition: top 0.3s ease;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+
+
 main {
     background-color: var(--branco);
 }
@@ -161,10 +181,6 @@ li::marker, tr td:nth-child(2) {
   font-weight: bold;
 }
 
-
-.ingredients, .instructions {
-     
-}
 
 table {
     width: 100%;
