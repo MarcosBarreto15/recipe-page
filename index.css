@@ -73,7 +73,7 @@ body{
 
 .skip-link {
     position: absolute;
-    top: -100px; /* Joga o link para fora da tela lá em cima */
+    top: -6.25rem; 
     left: 0;
     background: var(--marron);
     color: var(--branco);
@@ -157,8 +157,8 @@ li {
 table th {
     font-size: var(--fs-md);
     color: var(--pedra-600);
-    font-weight: normal; /* Para não ficar negrito por padrão */
-    text-align: left;    /* Garante alinhamento à esquerda */
+    font-weight: normal; 
+    text-align: left;    
     padding: 0.75rem;
     border-bottom: 1px solid var(--pedra-150);
 }
@@ -192,6 +192,7 @@ table {
 .attribution { 
     font-size: 0.6875rem; text-align: center;
 }
+
 .attribution a { 
     color: var(--marron); 
     text-decoration: none;
